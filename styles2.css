@@ -1,0 +1,230 @@
+* {
+    margin: 0%;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+}
+
+nav {
+    background-color: gainsboro;
+}
+
+.navigation {
+    list-style-type: none;
+    padding-top: 2%;
+    margin-left: 10%;
+    padding-bottom: 2%;
+}
+
+.navigation li {
+    display: inline-block;
+}
+
+.navigation .subtitle-index {
+    color: black;
+    background-color: white;
+    display: inline-block;
+    margin-right: 2%;
+    margin-left: 2%;
+    font-family: helvetica;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 10%;
+}
+
+.navigation .subtitle-index a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+@media screen and (min-width: 400px) {
+    .subtitle-index {
+      font-size: 25px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 400px) {
+    .subtitle-index {
+      font-size: 8px;
+    }
+  }
+
+
+.sns {
+    padding-top: 1%;
+    padding-right: 1%;
+    width: 5vh;
+    border-radius: 25px;
+}
+
+.content {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.container {
+    border-bottom: 10px;
+}
+
+.swiper {
+    width: 100%;
+    height: fit-content;
+}
+
+.swiper-slide img{
+    width: 100%;
+    border-color: white;
+    border-style: solid;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next {
+    color: white;
+}
+
+.slider-title {
+    color: white;
+    font-family: Helvetica;
+    padding: 1%;
+    background-color: black;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 7%;
+    left: 3%;
+}
+
+@media screen and (min-width: 400px) {
+    .slider-title {
+      font-size: 25px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 400px) {
+    .slider-title {
+      font-size: 7px;
+    }
+  }
+
+.slider-status {
+    color: black;
+    font-family: Helvetica;
+    padding: 1%;
+    background-color: #ffde59;
+    border-radius: 5px;
+    position: absolute;
+    top: 7%;
+    left: 3%;
+  }
+
+  @media screen and (min-width: 400px) {
+    .slider-status {
+      font-size: 21px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 400px) {
+    .slider-status {
+      font-size: 7px;
+    }
+  }
+
+.latest-works {
+    margin-top: 10%;
+}
+
+.first {
+    width: 70%;
+}
+
+.works {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: #eff0f2;
+    padding: 1%;
+    border-radius: 10px;
+    box-shadow: 15px 15px #ffde59;
+}
+
+.works li {
+    list-style-type: none;
+}
+
+.works li a {
+    text-decoration: none;
+}
+
+.works li h1 {
+    margin-top: 5%;
+    color: black;
+    font-family: Helvetica;
+}
+
+@media screen and (min-width: 400px) {
+    .works li h1 {
+      font-size: 25px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 400px) {
+    .works li h1 {
+      font-size: 7px;
+    }
+  }
+
+.works li .status {
+    background-color: white;
+    color: black;
+    font-family: helvetica;
+    padding: 10px;
+    border-radius: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+@media screen and (min-width: 400px) {
+    .status {
+      font-size: 21px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 400px) {
+    .status {
+      font-size: 7px;
+    }
+  }
+
+.works li .drama1 {
+    border-radius: 50px;
+    width: 100%;
+}
+
+.column {
+  float: left;
+  width: 40%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.second {
+    width: 70%;
+    margin-bottom: 10%;
+}

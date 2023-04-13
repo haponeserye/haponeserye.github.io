@@ -1,0 +1,11 @@
+FONT SIZE GUIDELINES
+
+MOBILE 
+Headings: 16px
+Subheadings: 12 px
+Body: 8px
+
+PC
+Headings: 25px
+Subheadings: 21px
+Body: 16px
