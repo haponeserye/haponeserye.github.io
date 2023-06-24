@@ -191,7 +191,19 @@ nav {
     border-radius: 50px;
     margin-left: 15%;
     margin-right: 15%;
+    margin-bottom: 3%;
 }
+
+.works li .status2 {
+  background-color:#ffde59;
+  color: black;
+  font-family: helvetica;
+  padding: 10px;
+  border-radius: 50px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
 
 @media screen and (min-width: 400px) {
     .status {
@@ -227,4 +239,91 @@ nav {
 .second {
     width: 70%;
     margin-bottom: 10%;
+}
+
+.footer1 {
+  display: inline-block;
+  margin: 10%;
+}
+
+h2 {
+  font-family: Arial;
+  color: black;
+  margin: 10px;
+}
+
+@media screen and (min-width: 400px) {
+  h2 {
+    font-size: 50px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 400px) {
+  h2 {
+    font-size: 25px;
+  }
+}
+
+.twt {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #00acee;
+  margin: 10px;
+}
+
+@media screen and (min-width: 400px) {
+  .twt {
+    height: 50px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 400px) {
+  .twt {
+    height: 25px;
+  }
+}
+
+.fb {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #3b5998;
+  margin: 10px;
+}
+
+@media screen and (min-width: 400px) {
+  .fb {
+    height: 50px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 400px) {
+  .fb {
+    height: 25px;
+  }
+}
+
+.footer2 {
+  display: inline-block;
+  margin: 10%;
+}
+
+.bilibili {
+  display: inline-block;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 400px) {
+  .bilibili {
+    height: 50px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 400px) {
+  .bilibili {
+    height: 25px;
+  }
 }
