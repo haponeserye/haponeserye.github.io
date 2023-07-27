@@ -218,6 +218,19 @@ nav {
     }
   }
 
+  @media screen and (min-width: 400px) {
+    .status2 {
+      font-size: 21px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 400px) {
+    .status2 {
+      font-size: 7px;
+    }
+  }
+
 .works li .drama1 {
     border-radius: 50px;
     width: 100%;

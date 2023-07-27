@@ -62,7 +62,6 @@ marquee {
 
 .main {
     width: 100%;
-    height: auto;
 }
 
 .navigation2 {
@@ -195,4 +194,8 @@ d {
     font-size: 250%;
     margin-top: 10%;
     margin-bottom: 10%;
+}
+
+.credits {
+    width: 100%;
 }
