@@ -130,9 +130,9 @@ c {
 }
 
 .content {
-    width: 100%;
-    margin: auto;
-    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
 }
 
 .gifs .gif-buttons {
@@ -193,6 +193,48 @@ d {
     font-family: helvetica;
     font-size: 250%;
     margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.episode1-video {
+    margin: 1%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+EP {
+    font-size: 200%;
+    font-family: Helvetica;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    margin: 1%;
+    display: inline-block;
+}
+
+ep-raw {
+    font-size: 200%;
+    font-family: Helvetica;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    margin: 1%;
+    display: inline-block;
+}
+
+.button-links {
     margin-bottom: 10%;
 }
 
